@@ -1,0 +1,16 @@
+Here is an example of a Linux shell script that can be used to send an email when an error is detected in a log file:
+
+Copy code
+#!/bin/bash
+
+# This script will send an email when an error is detected in a log file
+
+# Define the log file and recipient email address
+log_file="/var/log/mylog.log"
+recipient="youremail@example.com"
+
+# Check if the log file contains the string "error"
+if grep -q "error" $log_file; then
+  # Send email using the mail command
+  echo "An error has been detected in the log file" | mail -s "Error in Log File" $recipient
+fi
