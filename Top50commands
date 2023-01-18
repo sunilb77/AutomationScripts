@@ -1,0 +1,52 @@
+##Here is a list of the top 50 Linux commands that are commonly used by users and administrators##
+
+ls - list files and directories
+cd - change directory
+mkdir - make directory
+rmdir - remove directory
+touch - create a new file
+rm - remove a file or directory
+mv - move or rename a file or directory
+cp - copy a file or directory
+pwd - print current working directory
+cat - concatenate and display the contents of a file
+less - display the contents of a file one page at a time
+head - display the first lines of a file
+tail - display the last lines of a file
+grep - search for a pattern in a file or files
+find - search for files in a directory hierarchy
+chmod - change file permissions
+chown - change file ownership
+ps - display process status
+kill - terminate a process
+killall - terminate all processes with a specified name
+top - display system status
+free - display memory usage
+df - display disk usage
+du - display disk usage of a directory
+uptime - display system uptime
+who - display logged in users
+w - display logged in users and their process status
+last - display login history
+history - display command history
+man - display manual pages
+info - display info pages
+apropos - search for commands and manual pages
+whereis - locate a command or a file
+which - locate a command in the PATH
+alias - create an alias for a command
+bash - start a new bash shell
+echo - display a message
+printf - format and display a message
+date - display the current date and time
+cal - display a calendar
+bc - command line calculator
+sort - sort lines of text files
+uniq - remove duplicate lines from a sorted file
+cut - remove sections from each line of a file
+sed - stream editor for filtering and transforming text
+awk - text processing tool
+tr - translate or delete characters
+gzip - compress or decompress files
+tar - create or extract archive files
+zip - compress or extract files in a ZIP archive
